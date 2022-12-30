@@ -1,0 +1,51 @@
+body {
+  background-color: #222222;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#div1 {
+  width: 95%;
+  height: 500px;
+  margin-left:auto;
+  margin-right: auto;
+  background-image:url(gradient1.png);
+  background-size: cover;
+}
+#div2 {
+  width: 95%;
+  height: 500px;
+  border: solid;
+  margin-left:auto;
+  margin-right: auto;
+  background-image:url(gradient2.png);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+a.linkstyling1:link,a.linkstyling1:visited {
+  text-decoration: none;
+  color: #000
+}
+a.linkstyling1:hover {
+  text-decoration: underline;
+}
+a.linkstyling1:active {
+  color: #ffff00
+}
+
+a.linkstyling2:link,a.linkstyling2:visited {
+  text-decoration: none;
+  color: #000
+}
+a.linkstyling2:hover {
+  text-decoration: underline;
+}
+a.linkstyling2:active {
+  color: #ffff00
+}
