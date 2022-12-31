@@ -16,7 +16,7 @@ body {
 .div1 {
   width:100%;
   height: 70px;
-  background-color: #222222;
+  background-color: #ffffff;
   position: fixed;
   z-index: +1
 }
@@ -27,8 +27,8 @@ body {
 }
 .div3 {
   width:100%;
-  height: 1000px;
-  background-color: #333333;
+  height: 100%;
+  background-color: #ffffff;
   position: absolute;
   top: 70px;
 }
@@ -54,7 +54,7 @@ body {
 a.home:link, .idk:link, .store:link,
 .home:visited, .idk:visited, .store:visited {
   text-decoration: none;
-  color: #e0dbd1
+  color: #000000
 }
 a.home:hover, .idk:hover, .store:hover {
   text-decoration: none;
@@ -64,13 +64,13 @@ a.home:active, .idk:active, .store:active {
 }
 a.about:link, .about:visited {
   text-decoration: underline;
-  color: #e0dbd1;
+  color: #000000;
 }
 a.about:hover {
   text-decoration: underline;
 }
 a.about:active {
-  text-decoration: underline;
+  text-decoration: line;
   color: #555555;
 }
 img {
@@ -85,7 +85,7 @@ img {
   left: 70px;
   background-image:url(images/gradient5.png);
   background-size: cover;
-  background-color: #ff0000;
+  background-color: #00000022;
 }
 .div5 {
   width:35%;
@@ -99,5 +99,5 @@ img {
   text-align: justify;
   font-family: Suisse;
   font-size: 0.8em;
-  color: #e0dbd1;
+  color: #000000;
 }
