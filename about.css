@@ -1,0 +1,103 @@
+@font-face {
+  src: url(fonts/008acf881eac29f0c639b8e2345a1764.woff);
+  font-family: Suisse;
+}
+body {
+  margin: 0px
+}
+.divlogo {
+  width:50px;
+  height: 70px;
+  left: -17.5px;
+  margin-left: 50%;
+  position: fixed;
+  z-index: +1
+}
+.div1 {
+  width:100%;
+  height: 70px;
+  background-color: #222222;
+  position: fixed;
+  z-index: +1
+}
+.div2 {
+  position: fixed;
+  margin-left: 50%;
+  z-index: +1
+}
+.div3 {
+  width:100%;
+  height: 1000px;
+  background-color: #333333;
+  position: absolute;
+  top: 70px;
+}
+.home, .idk, .store, .about {
+  text-align: center;
+  font-family: Suisse;
+  font-size: 0.9em;
+  position: fixed;
+  top: 25px;
+}
+.home {
+  left: 50px;
+}
+.idk {
+  left: 150px;
+}
+.store {
+  right: 150px;
+}
+.about {
+  right: 50px;
+}
+a.home:link, .idk:link, .store:link,
+.home:visited, .idk:visited, .store:visited {
+  text-decoration: none;
+  color: #e0dbd1
+}
+a.home:hover, .idk:hover, .store:hover {
+  text-decoration: none;
+}
+a.home:active, .idk:active, .store:active {
+  color: #555555;
+}
+a.about:link, .about:visited {
+  text-decoration: underline;
+  color: #e0dbd1;
+}
+a.about:hover {
+  text-decoration: underline;
+}
+a.about:active {
+  text-decoration: underline;
+  color: #555555;
+}
+img {
+  display: block;
+  margin: +10px auto 0 auto;
+}
+.div4 {
+  width:400px;
+  height: 500px;
+  position: absolute;
+  top: 140px;
+  left: 70px;
+  background-image:url(billeder/gradient5.png);
+  background-size: cover;
+  background-color: #ff0000;
+}
+.div5 {
+  width:35%;
+  height: 500px;
+  left: 500px;
+  position: absolute;
+  top: 140px;
+  border: none;
+}
+.text1 {
+  text-align: justify;
+  font-family: Suisse;
+  font-size: 0.8em;
+  color: #e0dbd1;
+}
