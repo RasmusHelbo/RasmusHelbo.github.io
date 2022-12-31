@@ -82,7 +82,7 @@ img {
   height: 500px;
   position: absolute;
   top: 70px;
-  background-image:url(billeder/gradient2.png);
+  background-image:url(images/gradient2.png);
   background-size: cover;
   background-color: #ff0000;
 }
